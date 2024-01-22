@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -14,59 +14,66 @@ body{
 h2{font-size: 2.5em;}
 p{font-size: 1.25em;}
 
-button{
+button {
     font-size: 0.7em;
     font-weight: bold;
     padding: 10px 25px;
     margin: 25px;
     border-radius: 9px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid transparent;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.65);
     color: white;
     background-color: blueviolet;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
-button:hover{
-    background-color: rgb(97, 30, 160)
+button:hover {
+    background-color: rgb(110, 31, 184);
+    transform: scale(1.09);
+    border-color: rgb(0, 0, 0, 0.1);
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-header{
+header {
     background: #12171C;
 }
 
-header .logo{
+header .logo {
     width: 80px;
     height: 90px;
+    cursor: pointer;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 16px;
 }
 
-header a{
+header a {
     padding: 7px 14px;
     text-decoration: none;
     font-weight: bold;
     color: white;
+    transition: all 300ms ease;
 }
 
 
-header a:hover{
+header a:hover {
     color: blueviolet;
+    transform: scale(1.1);
 }
 
 #hero {
@@ -86,61 +93,85 @@ header a:hover{
 }
 
 
-#Perfil-pro .container{
+#Perfil-pro .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#Perfil-pro .container img{
+#Perfil-pro .container img {
     width: 200px;
     height: 250px;
-    border-radius: 25px;
+    border-radius: 25px 0px;
     border: 1px solid rgba(0, 0, 0, 0.36);
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.618);
 
 }
 
-#Perfil-exp{
+#Perfil-exp {
     background-color: #12171C;
     color: white;
 }
 
-#Perfil-exp .container{
+#Perfil-exp .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#Perfil-exp .container img{
+#Perfil-exp .container img {
     width: 200px;
     height: 250px;
     
 
 }
 
-#Perfil-hab .container{
+#Perfil-hab .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#Perfil-mi{
+#Perfil-mi {
     background-color: #12171C;
     color: white;
 }
 
-#Perfil-mi .container{
+#Perfil-mi .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-footer p{
+footer p {
     color: rgb(122, 122, 122);
 }
 
-footer .container{
+footer .container {
     text-align: center;
     padding: 40px 12px;
 }
 
-footer .redes-sociales img{
+footer .redes-sociales img {
     padding: 0px 20px;
+}
+
+#button-up {
+    width: 37px;
+    height: 37px;
+    background: blueviolet;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    border: 3.5px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+#button-up:hover {
+    transform: scale(1.08);
+    border-color: rgb(0, 0, 0, 0.1);
 }
