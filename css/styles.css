@@ -23,7 +23,7 @@ button {
     border: 2px solid transparent;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.65);
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -97,12 +97,12 @@ header a:hover {
     padding: 200px 12px;
 }
 
-#Perfil-pro .container img {
+#Perfil-pro .foto-perfil img {
     width: 200px;
     height: 250px;
     border-radius: 25px 0px;
     border: 1px solid rgba(0, 0, 0, 0.36);
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.618);
+    box-shadow: 2px 7px 13px rgba(0, 0, 0, 0.36);
 
 }
 
@@ -173,4 +173,58 @@ footer .redes-sociales img {
 #button-up:hover {
     transform: scale(1.08);
     border-color: rgb(0, 0, 0, 0.1);
+}
+
+@media (min-width: 720px){
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 3.2em;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 16px;
+    }
+
+    #hero {
+        height: 90vh;
+    }
+
+    button {
+        font-size: 1.3em;
+        padding: 15px 30px;
+        margin-top: 70px;
+
+    }
+
+    #Perfil-pro .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Perfil-pro .foto-perfil img {
+        height: 300px;
+        width: 250px;
+        
+    }
+
+    #Perfil-pro .texto {
+        padding: 50px;
+    } 
 }
