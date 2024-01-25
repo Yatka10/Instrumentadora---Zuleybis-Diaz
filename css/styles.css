@@ -81,7 +81,7 @@ header a:hover {
     flex-direction: column;
     align-items: center;
     height: 65vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Background-quirofano-hero.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://yatka10.github.io/Instrumentadora-Zuleybis-Diaz/img/Background/hero/Background-quirofano-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -237,4 +237,10 @@ footer .redes-sociales img {
     #Perfil-pro .texto {
         padding: 50px;
     } 
+
+    #button-up {
+        height: 45px;
+        width: 45px;
+        right: 20px;
+    }
 }
