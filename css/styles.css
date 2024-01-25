@@ -81,7 +81,7 @@ header a:hover {
     flex-direction: column;
     align-items: center;
     height: 65vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/Yatka10/Instrumentadora-Zuleybis-Diaz/main/img/Background/hero/Background-quirofano-hero.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Background-quirofano-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
