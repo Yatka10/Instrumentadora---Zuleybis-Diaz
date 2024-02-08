@@ -11,8 +11,17 @@ body {
     margin: 0;
 }
 
-h2{font-size: 2.5em;}
-p{font-size: 1.25em;}
+h2{
+    font-size: 2.5em;
+    margin: 40px;
+}
+p{
+    font-size: 1.25em;
+    display: block;
+    margin: 0px 50px;
+    text-align: initial;
+
+}
 
 button {
     font-size: 0.7em;
@@ -81,7 +90,7 @@ header a:hover {
     flex-direction: column;
     align-items: center;
     height: 65vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://yatka10.github.io/Instrumentadora-Zuleybis-Diaz/img/Background/hero/Background-quirofano-hero.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Background/hero/Background-quirofano-hero.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -105,6 +114,7 @@ header a:hover {
     box-shadow: 2px 7px 13px rgba(0, 0, 0, 0.36);
 
 }
+
 
 #Perfil-exp {
     background-color: #12171C;
@@ -147,6 +157,11 @@ footer .container {
     padding: 40px 12px;
 }
 
+footer .container p {
+    text-align: center;
+    padding: 40px 12px;
+}
+
 footer .redes-sociales img {
     padding: 0px 20px;
 }
@@ -160,11 +175,11 @@ footer .redes-sociales img {
     justify-content: center;
     align-items: center;
     color: white;
-    border-radius: 50%;
+    border-radius: 20% 0% 0% 20%;
     font-size: 20px;
     position: fixed;
     bottom: 25px;
-    right: 25px;
+    right: 1px;
     cursor: pointer;
     border: 3.5px solid transparent;
     transition: all 300ms ease;
@@ -221,26 +236,5 @@ footer .redes-sociales img {
         padding: 15px 30px;
         margin-top: 70px;
 
-    }
-
-    #Perfil-pro .container {
-        justify-content: center;
-        align-items: center;
-    }
-
-    #Perfil-pro .foto-perfil img {
-        height: 300px;
-        width: 250px;
-        
-    }
-
-    #Perfil-pro .texto {
-        padding: 50px;
-    } 
-
-    #button-up {
-        height: 45px;
-        width: 45px;
-        right: 20px;
     }
 }
